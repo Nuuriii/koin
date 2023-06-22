@@ -1,13 +1,10 @@
 import React from "react";
-import Nav from "./Nav/nav";
+import Nav from "./Nav/Nav";
 import GetStarted1 from "./GetStarted1/GetStarted1";
 import Information from "./Information/Information";
 import GetStarted2 from "./GetStarted2/GetStarted2";
 import Service from "./Service/Service";
 import Download from "./Download/Download";
-import Benefit from "./Benefit/Benefit";
-import Rating from "./Rating/Rating";
-import Footer from "./Footer/Footer";
 
 export default function LandingPage() {
    return (
@@ -19,9 +16,6 @@ export default function LandingPage() {
             <GetStarted2 />
             <Service />
             <Download />
-            <Benefit />
-            <Rating />
-            <Footer />
          </div>
       </>
    );
