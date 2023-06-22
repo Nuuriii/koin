@@ -5,6 +5,8 @@ import Information from "./Information/Information";
 import GetStarted2 from "./GetStarted2/GetStarted2";
 import Service from "./Service/Service";
 import Download from "./Download/Download";
+import Benefit from "./Benefit/Benefit";
+import Customer from "./Customer/Customer";
 
 export default function LandingPage() {
    return (
@@ -16,6 +18,8 @@ export default function LandingPage() {
             <GetStarted2 />
             <Service />
             <Download />
+            <Benefit />
+            <Customer />
          </div>
       </>
    );
