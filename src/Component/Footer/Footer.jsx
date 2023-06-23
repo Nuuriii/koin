@@ -24,19 +24,21 @@ function Footer() {
                </div>
             </div>
             <div className='mt-4'>
-               <form>
+               <form className=''>
                   <label className='text-xl ' htmlFor='email'>
                      Join our Mailing List
                   </label>
-                  <input
-                     className='px-6 py-5 mt-2 text-gray-500 rounded-l-lg placeholder:text-gray-500'
-                     type='email'
-                     id='email'
-                     placeholder='Enter Your Email'
-                  />
-                  <button className='relative px-6 py-5 font-semibold text-black rounded-lg right-4 bg-violet-400'>
-                     Send
-                  </button>
+                  <div className='flex items-center'>
+                     <input
+                        className='px-6 py-5 mt-2 text-gray-500 rounded-l-lg placeholder:text-gray-500'
+                        type='email'
+                        id='email'
+                        placeholder='Enter Your Email'
+                     />
+                     <button className='relative px-6 py-5 font-semibold text-black rounded-lg top-1 right-4 bg-violet-400'>
+                        Send
+                     </button>
+                  </div>
                </form>
                <div className='flex items-center gap-5 my-6'>
                   <img src={Instagram} alt='' />
@@ -44,7 +46,7 @@ function Footer() {
                   <img src={Twitter} alt='' />
                   <img src={Linkedin} alt='' />
                </div>
-               <div className='flex items-center justify-center gap-2'>
+               <div className='flex items-center justify-center gap-1 px-20'>
                   <img src={AppStore} alt='' />
                   <img src={GooglePlay} alt='' />
                </div>
