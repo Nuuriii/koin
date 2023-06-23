@@ -7,7 +7,7 @@ import RightIcon from "/img/right.svg";
 function Customer() {
    return (
       <>
-         <div className='mt-5 bg-white px-7 font-poppins pb-7'>
+         <div className='pt-5 bg-white px-7 font-poppins pb-7'>
             <h2 className='text-xl font-semibold'>
                See what our customers have to say
             </h2>

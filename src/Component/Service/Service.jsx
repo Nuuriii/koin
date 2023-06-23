@@ -7,9 +7,9 @@ import Suggestion from "/img/Suggestion.svg";
 function Service() {
    return (
       <>
-         <div className='bg-white px-7'>
+         <div className='py-5 bg-white px-7'>
             <h2 className='text-3xl font-semibold'>Our Service</h2>
-            <div className='grid grid-rows-4 gap-10 my-4'>
+            <div className='grid grid-rows-4 gap-10 py-4'>
                <div>
                   <div className='flex items-center p-3 rounded-full w-14 h-14 bg-violet-950'>
                      <img src={Accessible} alt='' />

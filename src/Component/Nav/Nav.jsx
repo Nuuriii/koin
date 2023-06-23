@@ -11,7 +11,7 @@ function Nav() {
             </div>
             <div>
                <div>
-                  <img src={Vector} alt='' />
+                  <img id='hamburger' src={Vector} alt='' />
                </div>
             </div>
          </div>
