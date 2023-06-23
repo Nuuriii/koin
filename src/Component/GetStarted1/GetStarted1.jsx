@@ -15,7 +15,7 @@ function GetStarted1() {
                   but it represents more financial freedom and a life with much
                   less stress A budget is a plan,{" "}
                </p>
-               <button className='flex items-center justify-center font-semibold text-black rounded-md md:text-lg w-36 bg-violet-400 hover:bg-violet-300'>
+               <button className='flex items-center justify-center px-3 py-2 font-semibold text-black rounded-md w-44 md:text-lg bg-violet-400 hover:bg-violet-300'>
                   <span>Get Started</span>
                   <img src={ArrowRIght} alt='' />
                </button>
