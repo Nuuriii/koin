@@ -7,6 +7,7 @@ import Service from "./Service/Service";
 import Download from "./Download/Download";
 import Benefit from "./Benefit/Benefit";
 import Customer from "./Customer/Customer";
+import Footer from "./Footer/Footer";
 
 export default function LandingPage() {
    return (
@@ -20,6 +21,7 @@ export default function LandingPage() {
             <Download />
             <Benefit />
             <Customer />
+            <Footer />
          </div>
       </>
    );
