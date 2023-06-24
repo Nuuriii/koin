@@ -8,18 +8,18 @@ import RightIcon from "/img/right.svg";
 function Customer() {
    return (
       <>
-         <div className='pt-5 bg-white px-7 font-poppins pb-7'>
-            <h2 className='text-xl font-semibold'>
+         <div className='pt-5 bg-white px-7 font-poppins pb-7 '>
+            <h2 className='text-xl font-semibold md:flex md:justify-center'>
                See what our customers have to say
             </h2>
-            <div className='gap-3 mt-7 md:grid lg:content-center md:grid-cols-1 lg:grid-cols-5 lg:items-center lg:justify-center'>
+            <div className='gap-3 mt-7 md:grid lg:content-center md:grid-cols-1 xl:grid-cols-5 lg:items-center lg:justify-center'>
                {/* Left Icon for lg++ */}
-               <div className='items-center justify-end hidden w-20 bg-red-900 lg:flex'>
+               <div className='items-end justify-end hidden w-full pr-9 xl:flex'>
                   <div className='flex items-center justify-center p-2 rounded-full lg:col-span-1 w-9 h-9 ring-2 ring-violet-400'>
                      <img src={LeftIcon} alt='' />
                   </div>
                </div>
-               <div className='flex w-full lg:gap-4 lg:col-span-3'>
+               <div className='flex w-full lg:gap-4 lg:col-span-3 md:gap-5'>
                   <div className='flex flex-col px-3 pt-5 pb-3 shadow-md sm:px-8 rounded-2xl shadow-gray-400 gap-y-3 bg-gradient-to-b from-sky-100 to-white'>
                      <h3 className='font-semibold'>Game Changer</h3>
                      <p>
@@ -107,7 +107,7 @@ function Customer() {
                </div>
 
                {/* Right Icon for lg++ */}
-               <div className='justify-end hidden w-20 bg-red-900 lg:flex'>
+               <div className='justify-start hidden w-full xl:flex pl-9'>
                   <div className='flex items-center justify-center p-2 rounded-full w-9 h-9 ring-2 ring-violet-400 lg:col-span-1'>
                      <img src={RightIcon} alt='' />
                   </div>
@@ -115,9 +115,9 @@ function Customer() {
             </div>
 
             {/* Arrow left rigth sm - md */}
-            <div className='flex justify-center gap-16 mt-4 lg:hidden'>
-               <div className='items-center justify-center hidden p-2 rounded-full lg:flex w-9 h-9 ring-2 ring-violet-400'>
-                  <img src={LeftIcon} alt='' />
+            <div className='flex justify-center gap-16 mt-4 xl:hidden'>
+               <div className='items-center justify-center p-2 rounded-full lg:flex w-9 h-9 ring-2 ring-violet-400'>
+                  <img src={LeftIcon} alt='left' />
                </div>
 
                <div className='flex items-center justify-center p-2 rounded-full w-9 h-9 ring-2 ring-violet-400'>
