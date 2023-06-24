@@ -7,7 +7,7 @@ import Suggestion from "/img/Suggestion.svg";
 function Service() {
    return (
       <>
-         <div className='py-5 bg-white px-7 md:py-10 md:pb-64'>
+         <div className='py-5 bg-gray-300 px-7 md:py-10 md:pb-64'>
             <h2 className='text-3xl font-semibold'>Our Service</h2>
             <div className='grid items-center content-center justify-center grid-rows-4 gap-10 py-4 sm:grid-rows-none sm:grid-cols-2 justify-items-center'>
                <div className='sm:col-span-1'>
