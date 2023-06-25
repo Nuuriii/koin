@@ -17,10 +17,18 @@ function Footer() {
                   <img src={KoinImage} alt='' />
                </div>
                <div className='flex flex-col gap-4 text-xl md:text-md md:gap-2 lg:gap-5 lg:flex-row '>
-                  <Link to='/'>FAQ's</Link>
-                  <Link to='/'>Contact Us</Link>
-                  <Link to='/'>Terms & Conditions</Link>
-                  <Link to='/'>Privacy Policy</Link>
+                  <Link className='hover:text-gray-300' to='/'>
+                     FAQ's
+                  </Link>
+                  <Link className='' to='/'>
+                     Contact Us
+                  </Link>
+                  <Link className='' to='/'>
+                     Terms & Conditions
+                  </Link>
+                  <Link className='' to='/'>
+                     Privacy Policy
+                  </Link>
                </div>
                <div className='items-center hidden gap-5 my-2 sm:flex '>
                   <img src={Instagram} alt='Instagram' />
