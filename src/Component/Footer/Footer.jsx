@@ -31,10 +31,14 @@ function Footer() {
                   </Link>
                </div>
                <div className='items-center hidden gap-5 my-2 sm:flex '>
-                  <img src={Instagram} alt='Instagram' />
-                  <img src={Facebook} alt='Facebook' />
-                  <img src={Twitter} alt='Twitter' />
-                  <img src={Linkedin} alt='Linkedin' />
+                  <img
+                     className='duration-500 hover:scale-125 '
+                     src={Instagram}
+                     alt='Instagram'
+                  />
+                  <img className='' src={Facebook} alt='Facebook' />
+                  <img className='' src={Twitter} alt='Twitter' />
+                  <img className='' src={Linkedin} alt='Linkedin' />
                </div>
             </div>
             <div className='items-center mt-4 md:flex md:gap-3 md:flex-col md:justify-center'>
