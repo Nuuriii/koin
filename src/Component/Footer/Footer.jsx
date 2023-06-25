@@ -23,7 +23,7 @@ function Footer() {
                   <Link className='hover:text-gray-300' to='/'>
                      Contact Us
                   </Link>
-                  <Link className='' to='/'>
+                  <Link className='hover:text-gray-300' to='/'>
                      Terms & Conditions
                   </Link>
                   <Link className='' to='/'>
