@@ -26,7 +26,7 @@ function Footer() {
                   <img src={Instagram} alt='Instagram' />
                   <img src={Facebook} alt='Facebook' />
                   <img src={Twitter} alt='Twitter' />
-                  <img src={Linkedin} alt='' />
+                  <img src={Linkedin} alt='Linkedin' />
                </div>
             </div>
             <div className='items-center mt-4 md:flex md:gap-3 md:flex-col md:justify-center'>
