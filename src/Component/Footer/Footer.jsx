@@ -49,7 +49,7 @@ function Footer() {
                <div className='flex items-center gap-5 my-6 sm:hidden'>
                   <img src={Instagram} alt='Instagram' />
                   <img src={Facebook} alt='Facebook' />
-                  <img src={Twitter} alt='' />
+                  <img src={Twitter} alt='Twitter' />
                   <img src={Linkedin} alt='' />
                </div>
                <div className='flex items-center justify-start gap-1 px-1 md:px-1 md:pt-0 sm:pt-4'>
