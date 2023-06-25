@@ -41,7 +41,11 @@ function Footer() {
                      src={Facebook}
                      alt='Facebook'
                   />
-                  <img className='' src={Twitter} alt='Twitter' />
+                  <img
+                     className='duration-500 hover:scale-125'
+                     src={Twitter}
+                     alt='Twitter'
+                  />
                   <img className='' src={Linkedin} alt='Linkedin' />
                </div>
             </div>
