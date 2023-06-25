@@ -24,7 +24,7 @@ function Footer() {
                </div>
                <div className='items-center hidden gap-5 my-6 sm:flex md:my-1'>
                   <img src={Instagram} alt='' />
-                  <img src={Facebook} alt='' />
+                  <img src={Facebook} alt='mmm' />
                   <img src={Twitter} alt='' />
                   <img src={Linkedin} alt='' />
                </div>
