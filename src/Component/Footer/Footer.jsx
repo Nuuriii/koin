@@ -11,8 +11,8 @@ import GooglePlay from "/img/GooglePlay.svg";
 function Footer() {
    return (
       <>
-         <div className='px-5 text-white sm:flex sm:flex-row sm:justify-between bg-violet-950 py-9'>
-            <div className='md:grid md:grid-rows-3 md:items-center'>
+         <div className='px-5 text-white sm:flex sm:flex-row sm:justify-between md:items-center bg-violet-950 py-9 lg:py-5 lg:px-14'>
+            <div className='flex flex-col sm:gap-y-5 '>
                <div>
                   <img src={KoinImage} alt='' />
                </div>
@@ -22,7 +22,7 @@ function Footer() {
                   <Link to='/'>Terms & Conditions</Link>
                   <Link to='/'>Privacy Policy</Link>
                </div>
-               <div className='items-center hidden gap-5 my-6 sm:flex md:my-1'>
+               <div className='items-center hidden gap-5 my-2 sm:flex '>
                   <img src={Instagram} alt='' />
                   <img src={Facebook} alt='mmm' />
                   <img src={Twitter} alt='' />
