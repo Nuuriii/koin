@@ -41,7 +41,7 @@ function Footer() {
                         id='email'
                         placeholder='Enter Your Email'
                      />
-                     <button className='relative px-6 py-5 font-semibold text-black rounded-lg top-1 right-4 bg-violet-400'>
+                     <button className='relative px-6 py-5 font-semibold text-black rounded-lg hover:bg-violet-300 top-1 right-4 bg-violet-400'>
                         Send
                      </button>
                   </div>
