@@ -8,19 +8,19 @@ function Benefit() {
          <div className='flex-col mt-6 mb-8 px-7 sm:flex sm:items-center font-poppins'>
             <h2 className='my-3 text-3xl font-semibold'>Benefits</h2>
             <div className='sm:grid sm:grid-cols-2 sm:gap-3 md:items-center'>
-               <div>
+               <div className='hidden sm:flex'>
                   <img src={Women} alt='' />
                </div>
                <div>
                   <div className='pt-2 pb-4'>
-                     <p className='md:text-2xl lg:text-3xl'>
+                     <p className='md:text-xl lg:text-2xl'>
                         Designed to help you take control of your finances and
                         achieve your financial goals. Our app is easy to use and
                         provides a complete overview of your finances, allowing
                         you to manage your money with confidence.
                      </p>
                   </div>
-                  <div className='grid grid-rows-4 gap-3 text-black md:text-xl lg:text-2xl'>
+                  <div className='grid grid-rows-4 gap-3 text-black md:text-lg lg:text-xl'>
                      <div className='flex items-center gap-3'>
                         <div className='flex items-center justify-center rounded-full w-7 h-7 ring-2 ring-violet-400'>
                            <img src={CheckMark} alt='' />
