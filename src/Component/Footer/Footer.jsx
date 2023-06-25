@@ -48,7 +48,7 @@ function Footer() {
                </form>
                <div className='flex items-center gap-5 my-6 sm:hidden'>
                   <img src={Instagram} alt='Instagram' />
-                  <img src={Facebook} alt='' />
+                  <img src={Facebook} alt='Facebook' />
                   <img src={Twitter} alt='' />
                   <img src={Linkedin} alt='' />
                </div>
