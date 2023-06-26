@@ -42,8 +42,10 @@ function Nav() {
                      </svg>
                   </div>
                   <ul className='MENU-LINK-MOBILE-OPEN flex flex-col  justify-between min-h-[250px]'>
-                     <li className='flex justify-center my-8 uppercase border-b border-gray-400'>
-                        <Link to={"/home"}>Home</Link>
+                     <li className='flex justify-center my-8 uppercase border-b border-gray-400 '>
+                        <Link className='hover:text-gray-500' to={"/home"}>
+                           Home
+                        </Link>
                      </li>
                      <li className='flex justify-center my-8 uppercase border-b border-gray-400'>
                         <Link>About</Link>
