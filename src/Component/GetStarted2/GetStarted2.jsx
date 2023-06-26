@@ -7,7 +7,7 @@ function GetStarted2() {
       <>
          <div className='grid items-center justify-center grid-rows-2 pt-3 pb-4 bg- sm:grid-cols-2 sm:grid-rows-none sm:flex-row font-poppins px-7'>
             <div className='flex justify-center'>
-               <img src={People} alt='' />
+               <img className='lg:h-3/5 lg:w-3/5' src={People} alt='' />
             </div>
             <div>
                <h2 className='text-4xl'>
