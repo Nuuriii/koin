@@ -76,7 +76,7 @@ function Footer() {
                   <img src={Twitter} alt='Twitter' />
                   <img src={Linkedin} alt='Linkedin' />
                </div>
-               <div className='flex items-center justify-start gap-1 px-1 md:px-1 md:pt-0 sm:pt-4'>
+               <div className='flex items-center justify-start gap-1 md:px-1 md:pt-0 sm:pt-4'>
                   <img src={AppStore} alt='AppStore Image' />
                   <img src={GooglePlay} alt='GooglePlay Image' />
                </div>
