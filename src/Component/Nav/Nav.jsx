@@ -42,22 +42,22 @@ function Nav() {
                      </svg>
                   </div>
                   <ul className='MENU-LINK-MOBILE-OPEN flex flex-col  justify-between min-h-[250px]'>
-                     <li className='my-8 uppercase border-b border-gray-400'>
+                     <li className='flex justify-center my-8 uppercase border-b border-gray-400'>
                         <Link to={"/home"}>Home</Link>
                      </li>
-                     <li className='my-8 uppercase border-b border-gray-400'>
+                     <li className='flex justify-center my-8 uppercase border-b border-gray-400'>
                         <Link>About</Link>
                      </li>
-                     <li className='my-8 uppercase border-b border-gray-400'>
+                     <li className='flex justify-center my-8 uppercase border-b border-gray-400'>
                         <Link>Payment</Link>
                      </li>
-                     <li className='my-8 uppercase border-b border-gray-400'>
+                     <li className='flex justify-center my-8 uppercase border-b border-gray-400'>
                         <Link>Services</Link>
                      </li>
-                     <li className='my-8 uppercase border-b border-gray-400'>
+                     <li className='flex justify-center my-8 uppercase border-b border-gray-400'>
                         <Link>Contact Us</Link>
                      </li>
-                     <li className='my-8 uppercase '>
+                     <li className='flex justify-center my-8 uppercase'>
                         <button className='px-3 py-2 rounded-md bg-violet-400 hover:bg-violet-300'>
                            SIGN IN{" "}
                         </button>
