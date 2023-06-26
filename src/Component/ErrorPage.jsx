@@ -11,9 +11,9 @@ export default function ErrorPage() {
          className='flex flex-col items-center justify-center h-screen'
       >
          <div>
-            <img src={NotFoundImage} alt='' />
+            <img className='w-96 h-96' src={NotFoundImage} alt='' />
          </div>
-         <p className='pt-4 font-semibold font-poppins'>
+         <p className='pt-2 font-semibold font-poppins'>
             Maaf halaman yang anda cari belum dibuat
          </p>
       </div>
