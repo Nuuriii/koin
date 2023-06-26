@@ -53,7 +53,7 @@ function Footer() {
                   />
                </div>
             </div>
-            <div className='flex flex-col mt-4 md:items-center md:flex md:gap-3 md:flex-col md:justify-center'>
+            <div className='flex flex-col mt-4 md:items-center md:flex md:gap-y-6 md:flex-col md:justify-center'>
                <form className=''>
                   <label className='text-xl ' htmlFor='email'>
                      Join our Mailing List
