@@ -48,16 +48,16 @@ function Nav() {
                         </Link>
                      </li>
                      <li className='flex justify-center my-8 uppercase border-b border-gray-400'>
-                        <Link>About</Link>
+                        <Link className='hover:text-gray-500'>About</Link>
                      </li>
                      <li className='flex justify-center my-8 uppercase border-b border-gray-400'>
-                        <Link>Payment</Link>
+                        <Link className='hover:text-gray-500'>Payment</Link>
                      </li>
                      <li className='flex justify-center my-8 uppercase border-b border-gray-400'>
-                        <Link>Services</Link>
+                        <Link className='hover:text-gray-500'>Services</Link>
                      </li>
                      <li className='flex justify-center my-8 uppercase border-b border-gray-400'>
-                        <Link>Contact Us</Link>
+                        <Link className='hover:text-gray-500'>Contact Us</Link>
                      </li>
                      <li className='flex justify-center my-8 uppercase'>
                         <button className='px-3 py-2 rounded-md bg-violet-400 hover:bg-violet-300'>
