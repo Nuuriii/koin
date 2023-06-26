@@ -8,8 +8,8 @@ function Benefit() {
          <div className='flex-col mt-6 mb-8 px-7 sm:flex sm:items-center font-poppins'>
             <h2 className='my-3 text-3xl font-semibold'>Benefits</h2>
             <div className='sm:grid sm:grid-cols-2 sm:gap-3 md:items-center'>
-               <div className='hidden sm:flex'>
-                  <img src={Women} alt='' />
+               <div className='hidden sm:flex sm:justify-center'>
+                  <img className='lg:h-3/5 lg:w-3/5' src={Women} alt='' />
                </div>
                <div>
                   <div className='pt-2 pb-4'>
