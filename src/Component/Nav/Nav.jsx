@@ -68,32 +68,44 @@ function Nav() {
 
             <ul className='hidden space-x-8 DESKTOP-MENU lg:flex lg:items-center'>
                <li>
-                  <Link to={"/home"} className='text-white '>
+                  <Link to={"/home"} className='text-white hover:text-gray-300'>
                      Home
                   </Link>
                </li>
                <li>
-                  <Link to={"/about"} className='text-white'>
+                  <Link
+                     to={"/about"}
+                     className='text-white hover:text-gray-300'
+                  >
                      About
                   </Link>
                </li>
                <li>
-                  <Link to={"/payment"} className='text-white'>
+                  <Link
+                     to={"/payment"}
+                     className='text-white hover:text-gray-300'
+                  >
                      Payment
                   </Link>
                </li>
                <li>
-                  <Link to={"/services"} className='text-white'>
+                  <Link
+                     to={"/services"}
+                     className='text-white hover:text-gray-300'
+                  >
                      Services
                   </Link>
                </li>
                <li>
-                  <Link to={"/contact"} className='text-white'>
+                  <Link
+                     to={"/contact"}
+                     className='text-white hover:text-gray-300'
+                  >
                      Contact Us
                   </Link>
                </li>
                <li>
-                  <button className='px-5 py-2 rounded-md bg-violet-400'>
+                  <button className='px-5 py-2 rounded-md hover:bg-violet-300 bg-violet-400'>
                      Sign In
                   </button>
                </li>
