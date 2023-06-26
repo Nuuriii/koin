@@ -7,10 +7,10 @@ function GetStarted1() {
       <>
          <div className='grid items-center justify-center grid-rows-2 text-white pb-14 sm:grid-cols-2 sm:grid-rows-none font-poppins bg-violet-950 px-7'>
             <div className='flex flex-col justify-center gap-y-5'>
-               <h1 className='text-4xl font-bold'>
-                  Your one stop Budgeting tool{" "}
+               <h1 className='text-4xl font-semibold lg:text-6xl'>
+                  Your one stop Budgeting tool
                </h1>
-               <p className='md:text-xl'>
+               <p className='md:text-xl lg:text-2xl'>
                   A budget is a plan for every dollar you have. It’s not magic,
                   but it represents more financial freedom and a life with much
                   less stress A budget is a plan,{" "}
@@ -21,7 +21,7 @@ function GetStarted1() {
                </button>
             </div>
             <div className='flex justify-center'>
-               <img src={Card} alt='' />
+               <img className='lg:h-3/4 lg:w-3/4' src={Card} alt='' />
             </div>
          </div>
       </>
