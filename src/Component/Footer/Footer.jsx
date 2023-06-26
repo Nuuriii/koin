@@ -17,10 +17,10 @@ function Footer() {
                   <img src={KoinImage} alt='' />
                </div>
                <div className='flex flex-col gap-4 text-xl py-7 sm:py-0 md:text-md md:gap-2 lg:gap-5 lg:flex-row '>
-                  <Link className='hover:text-gray-300' to='faq'>
+                  <Link className='hover:text-gray-300' to='/faq'>
                      FAQ's
                   </Link>
-                  <Link className='hover:text-gray-300' to='/'>
+                  <Link className='hover:text-gray-300' to='/contact'>
                      Contact Us
                   </Link>
                   <Link className='hover:text-gray-300' to='/'>
