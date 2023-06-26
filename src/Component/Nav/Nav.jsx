@@ -43,7 +43,7 @@ function Nav() {
                   </div>
                   <ul className='MENU-LINK-MOBILE-OPEN flex flex-col  justify-between min-h-[250px]'>
                      <li className='flex justify-center my-8 uppercase border-b border-gray-400 '>
-                        <Link className='hover:text-gray-500' to={"/home"}>
+                        <Link className='hover:text-gray-500' to={"/"}>
                            Home
                         </Link>
                      </li>
@@ -78,7 +78,7 @@ function Nav() {
 
             <ul className='hidden space-x-8 DESKTOP-MENU lg:flex lg:items-center'>
                <li>
-                  <Link to={"/home"} className='text-white hover:text-gray-300'>
+                  <Link to={"/"} className='text-white hover:text-gray-300'>
                      Home
                   </Link>
                </li>
