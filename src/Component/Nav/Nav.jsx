@@ -43,7 +43,7 @@ function Nav() {
                   </div>
                   <ul className='MENU-LINK-MOBILE-OPEN flex flex-col  justify-between min-h-[250px]'>
                      <li className='my-8 uppercase border-b border-gray-400'>
-                        <Link>Home</Link>
+                        <Link to={"/home"}>Home</Link>
                      </li>
                      <li className='my-8 uppercase border-b border-gray-400'>
                         <Link>About</Link>
@@ -68,19 +68,29 @@ function Nav() {
 
             <ul className='hidden space-x-8 DESKTOP-MENU lg:flex lg:items-center'>
                <li>
-                  <Link className='text-white'>Home</Link>
+                  <Link to={"/home"} className='text-white '>
+                     Home
+                  </Link>
                </li>
                <li>
-                  <Link className='text-white'>About</Link>
+                  <Link to={"/about"} className='text-white'>
+                     About
+                  </Link>
                </li>
                <li>
-                  <Link className='text-white'>Payment</Link>
+                  <Link to={"/payment"} className='text-white'>
+                     Payment
+                  </Link>
                </li>
                <li>
-                  <Link className='text-white'>Services</Link>
+                  <Link to={"/services"} className='text-white'>
+                     Services
+                  </Link>
                </li>
                <li>
-                  <Link className='text-white'>Contact Us</Link>
+                  <Link to={"/contact"} className='text-white'>
+                     Contact Us
+                  </Link>
                </li>
                <li>
                   <button className='px-5 py-2 rounded-md bg-violet-400'>
