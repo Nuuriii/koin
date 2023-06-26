@@ -63,7 +63,9 @@ function Nav() {
                         </Link>
                      </li>
                      <li className='flex justify-center my-8 uppercase border-b border-gray-400'>
-                        <Link className='hover:text-gray-500'>Contact Us</Link>
+                        <Link className='hover:text-gray-500' to={"/contact"}>
+                           Contact Us
+                        </Link>
                      </li>
                      <li className='flex justify-center my-8 uppercase'>
                         <button className='px-3 py-2 rounded-md bg-violet-400 hover:bg-violet-300'>
