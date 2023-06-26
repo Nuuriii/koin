@@ -11,12 +11,12 @@ import GooglePlay from "/img/GooglePlay.svg";
 function Footer() {
    return (
       <>
-         <div className='text-white px-7 sm:flex sm:flex-row sm:justify-between md:items-center bg-violet-950 py-9 lg:py-5 lg:px-14'>
+         <div className='px-2 pl-4 text-white sm:px-7 sm:flex sm:flex-row sm:justify-between md:items-center bg-violet-950 py-9 lg:py-5 lg:px-14'>
             <div className='flex flex-col sm:gap-y-5 '>
                <div>
                   <img src={KoinImage} alt='' />
                </div>
-               <div className='flex flex-col gap-4 text-xl md:text-md md:gap-2 lg:gap-5 lg:flex-row '>
+               <div className='flex flex-col gap-4 text-xl py-7 sm:py-0 md:text-md md:gap-2 lg:gap-5 lg:flex-row '>
                   <Link className='hover:text-gray-300' to='/'>
                      FAQ's
                   </Link>
@@ -53,7 +53,7 @@ function Footer() {
                   />
                </div>
             </div>
-            <div className='items-center mt-4 md:flex md:gap-3 md:flex-col md:justify-center'>
+            <div className='flex flex-col mt-4 md:items-center md:flex md:gap-3 md:flex-col md:justify-center'>
                <form className=''>
                   <label className='text-xl ' htmlFor='email'>
                      Join our Mailing List
@@ -77,8 +77,12 @@ function Footer() {
                   <img src={Linkedin} alt='Linkedin' />
                </div>
                <div className='flex items-center justify-start gap-1 md:px-1 md:pt-0 sm:pt-4'>
-                  <img src={AppStore} alt='AppStore Image' />
-                  <img src={GooglePlay} alt='GooglePlay Image' />
+                  <img className='w-3/4' src={AppStore} alt='AppStore Image' />
+                  <img
+                     className='w-3/4'
+                     src={GooglePlay}
+                     alt='GooglePlay Image'
+                  />
                </div>
             </div>
          </div>
