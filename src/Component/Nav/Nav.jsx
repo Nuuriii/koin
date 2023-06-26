@@ -53,7 +53,9 @@ function Nav() {
                         </Link>
                      </li>
                      <li className='flex justify-center my-8 uppercase border-b border-gray-400'>
-                        <Link className='hover:text-gray-500'>Payment</Link>
+                        <Link className='hover:text-gray-500' to={"/payment"}>
+                           Payment
+                        </Link>
                      </li>
                      <li className='flex justify-center my-8 uppercase border-b border-gray-400'>
                         <Link className='hover:text-gray-500'>Services</Link>
